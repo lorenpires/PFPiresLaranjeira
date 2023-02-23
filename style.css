@@ -121,6 +121,9 @@ footer {
     color: white;
     font-size: 0.8rem;
 }
+.footer__subtitulo {
+    font-size: 1rem;
+}
 .telefono {
     font-size: 0.7rem;
 }
@@ -134,10 +137,19 @@ footer {
     footer {
         font-size: 1.3rem;
     }
+    .footer__subtitulo {
+        font-size: 1.8rem;
+    }
     .telefono {
         font-size: 1.3rem;
     }
+    .limite-tamaño {
+        max-width: 80%;
+    }
     .registro__formulario {
         font-size: 1.5rem;
+    }
+    #fecha {
+        height: 2rem;
     }
 }
