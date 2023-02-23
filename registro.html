@@ -143,6 +143,80 @@
                 tendras que leerlas ¡
             </div>
         </section>
+        <section class="registro__formulario">
+            <form
+                class="border border-success border-4 rounded-5 p-1 mb-4 ms-1 me-1 container-lg- mx-lg-auto px-lg-5 py-lg-3"
+            >
+                <div class="fs-2 fw-bolder text-center pb-lg-3">
+                    Inscripción
+                </div>
+                <div class="bg-colormenu rounded-3 p-2 my-2 m-lg-3">
+                    <input
+                        type="text"
+                        name="nombre"
+                        class="datos rounded ps-1"
+                        placeholder="Nombre y Apellido"
+                        size="30"
+                    />
+                </div>
+                <div
+                    class="bg-colormenu rounded-3 pt-1 pb-1 ps-2 mt-2 mb-2 m-lg-3"
+                >
+                    <label for="fecha">Fecha de nacimiento: </label>
+                    <input
+                        type="date"
+                        name="fecha"
+                        class="datos rounded ps-1"
+                        id="fecha"
+                    />
+                </div>
+                <div class="bg-colormenu rounded-3 p-2 mt-2 mb-2 m-lg-3">
+                    <input
+                        type="email"
+                        name="correo"
+                        class="datos rounded ps-1"
+                        placeholder="Dirección de correo electrónico:"
+                        size="30"
+                    />
+                </div>
+                <div
+                    class="bg-colormenu rounded-3 p-2 mt-2 mb-2 text-center d-lg-none"
+                >
+                    <textarea
+                        class="rounded ps-1"
+                        name="mensaje"
+                        cols="40"
+                        rows="10"
+                        placeholder=" Agregar un comentario"
+                    ></textarea>
+                </div>
+                <div class="d-none d-lg-flex justify-content-center">
+                    <div class="p-3 bg-colormenu rounded-3">
+                        <textarea
+                            class="rounded ps-1"
+                            name="mensaje"
+                            cols="70"
+                            rows="10"
+                            placeholder=" Agregar un comentario"
+                        ></textarea>
+                    </div>
+                </div>
+                <div class="bg-colormenu rounded-3 p-2 mt-2 mb-2 text-end pe-5">
+                    <input
+                        type="submit"
+                        name="Enviar"
+                        value="Enviar"
+                        class="bg-light rounded-3 px-2 py-1"
+                    />
+                    <input
+                        type="reset"
+                        name="borrar"
+                        value="Borrar"
+                        class="bg-light rounded-3 ms-2 px-2 py-1"
+                    />
+                </div>
+            </form>
+        </section>
         <footer>
             <div class="container-fluid">
                 <div class="row m-2">
