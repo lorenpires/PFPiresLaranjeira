@@ -91,38 +91,14 @@ nav {
     border-top-left-radius: 20px;
 }
 /*PARA LOS TRES LUGARES/////////////////////////////////////////////////////////*/
-.mejora {
-    border-radius: 0;
-    padding: 0;
-}
-ul {
-    text-align: center;
-    margin-bottom: 40px;
-}
-li {
-    font-size: 18px;
-    display: inline-block;
-    margin: 0;
-    text-align: center;
-    width: 33%;
-}
-li p {
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
-    background-color: lightgreen;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding: 5px 0;
+.lugar__fotos img {
+    width: 100%;
 }
 /*FOOTER//////////////////////////////////////////////////////*/
 footer {
     background-color: rgb(70, 147, 70);
     color: white;
     font-size: 0.8rem;
-}
-.footer__subtitulo {
-    font-size: 1rem;
 }
 .telefono {
     font-size: 0.7rem;
@@ -137,19 +113,10 @@ footer {
     footer {
         font-size: 1.3rem;
     }
-    .footer__subtitulo {
-        font-size: 1.8rem;
-    }
     .telefono {
         font-size: 1.3rem;
     }
-    .limite-tamaño {
-        max-width: 80%;
-    }
     .registro__formulario {
         font-size: 1.5rem;
-    }
-    #fecha {
-        height: 2rem;
     }
 }

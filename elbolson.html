@@ -131,51 +131,86 @@
             </div>
         </header>
         <main>
-            <div id="titulo_bolson">
-                <h2>El Bolson</h2>
-                <h3>
+            <section class="bolson__intro">
+                <div class="bolson__subtitulo text-center fw-bold fs-2 mt-3">
+                    El Bolson
+                </div>
+                <div class="bolson__texto text-center fs-4 ms-3 me-3 mb-3">
                     Las 5 mejores activdades para realizar en este hermoso lugar
-                </h3>
-            </div>
-            <div id="act_bolson">
-                <ul>
-                <li><div id="bolson1" class="fotos_bolson">
-                    <img src="img/bs1.jpg" alt="rio_azul" />
-                    <div></div>
-                  <p>Visita al Rio Azul </p>
-                </div></li>
-                <li><div id="bolson2" class="fotos_bolson">
-                    <img src="img/bs2.jpg" alt="tour" />
-                    <div></div>
-                  <p>Tour de Canopy en la Patagonia</p>
-                </div></li>
-                <li><div id="bolson3" class="fotos_bolson">
-                    <img src="img/bs3.jpg" alt="cajon_del_azul" />
-                    <div></div>
-                  <p>Recorrido hasta el Cajon del Azul Villa La Angostura</p>
-                </div></li>
-            </ul>
-            <ul>
-                <li><div id="bolson4" class="fotos_bolson">
-                    <img src="img/bs4.jpg" alt="cerro" />
-                    <div></div>
-                    <p>Actividades en el Cerro Perito Moreno</p>
-                </div></li>
-                <li><div id="bolson5" class="fotos_bolson">
-                    <img src="img/bs5.jpg" alt="hielo_azul" />
-                    <div></div>
-                   <p>Visita al Glaciar del Hielo Azul</p>
-                </div></li>
-            </div>
-        </ul>
+                </div>
+            </section>
+            <section class="lugar__fotos">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div
+                            class="col-8 text-center mx-auto fotos_bolson mb-4 col-lg-4"
+                            id="bolson1"
+                        >
+                            <img src="img/bs1.jpg" alt="siete_lagos" />
+                            <p
+                                class="lugar__fotos__pie rounded-bottom-4 bg-colormenu p-1"
+                            >
+                                Visita al Rio Azul
+                            </p>
+                        </div>
+                        <div
+                            class="col-8 text-center mx-auto fotos_bolson mb-4 col-lg-4"
+                            id="bolson2"
+                        >
+                            <img
+                                src="img/bs2.jpg"
+                                alt="huechulafquen"
+                                class="img-fluid"
+                            />
+                            <p
+                                class="lugar__fotos__pie rounded-bottom-4 bg-colormenu p-1"
+                            >
+                                Tour de Canopy en la Patagonia
+                            </p>
+                        </div>
+                        <div
+                            class="col-8 text-center mx-auto fotos_bolson mb-4 col-lg-4"
+                            id="bolson3"
+                        >
+                            <img src="img/bs3.jpg" alt="villa_la_angostura" />
+                            <p
+                                class="lugar__fotos__pie rounded-bottom-4 bg-colormenu p-1"
+                            >
+                                Recorrido hasta el Cajon del Azul Villa La
+                                Angostura
+                            </p>
+                        </div>
+                        <div
+                            class="col-8 text-center mx-auto fotos_bolson mb-4 col-lg-4 offset-lg-4"
+                            id="bolson4"
+                        >
+                            <img src="img/bs4.jpg" alt="rio_chimeuin" />
+                            <p
+                                class="lugar__fotos__pie rounded-bottom-4 bg-colormenu p-1"
+                            >
+                                Actividades en el Cerro Perito Moreno
+                            </p>
+                        </div>
+                        <div
+                            class="col-8 text-center mx-auto fotos_bolson mb-4 col-lg-4"
+                            id="bolson5"
+                        >
+                            <img src="img/bs5.jpg" alt="quilaquina" />
+                            <p
+                                class="lugar__fotos__pie rounded-bottom-4 bg-colormenu p-1"
+                            >
+                                Visita al Glaciar del Hielo Azul
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer>
             <div class="container-fluid">
-                <div class="row m-2 mb-4">
+                <div class="row m-2">
                     <div class="col-4">
-                        <div class="col fw-bold footer__subtitulo">
-                            Contactanos
-                        </div>
+                        <div class="col fw-bold">Contactanos</div>
                         <div class="col telefono">
                             <i class="fa-solid fa-phone"></i> +54 9 1122918466
                         </div>
@@ -189,9 +224,7 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="col fw-bold footer__subtitulo">
-                            Donde encontrarnos
-                        </div>
+                        <div class="col fw-bold">Donde encontrarnos</div>
                         <div class="col">Guapamecultú 1394</div>
                         <div class="col">San Martin de los Andes, Neuquén</div>
                     </div>

@@ -131,51 +131,89 @@
             </div>
         </header>
         <main>
-            <div id="titulo_bariloche">
-                <h2>Bariloche</h2>
-                <h3>
+            <section class="bariloche__intro">
+                <div class="bariloche__subtitulo text-center fw-bold fs-2 mt-3">
+                    Bariloche
+                </div>
+                <div class="bariloche__texto text-center fs-4 ms-3 me-3 mb-3">
                     Las 5 mejores activdades para realizar en este hermoso lugar
-                </h3>
-            </div>
-            <div id="act_bariloche">
-                <ul>
-                <li><div id="bariloche1" class="fotos_bariloche">
-                    <img src="img/brc1.jpg" alt="puerto_blest" />
-                    <div></div>
-                  <p> Recorrido en barco por Puerto Blest, Cascada de Los Cantaros y Lago Frías</p>
-                </div></li>
-                <li><div id="bariloche2" class="fotos_bariloche">
-                    <img src="img/brc2.jpg" alt="rio_manso" />
-                    <div></div>
-                  <p class="mejora">Rafting en el río Manso hasta la frontera </p><div></div><p>desde Bariloche</p>
-                </div></li>
-                <li><div id="bariloche3" class="fotos_bariloche">
-                    <img src="img/brc3.jpg" alt="caballo" />
-                    <div></div>
-                  <p>Excursión a caballo en Bariloche con asado tradicional argentino</p>
-                </div></li>
-            </ul>
-            <ul>
-                <li><div id="bariloche4" class="fotos_bariloche">
-                    <img src="img/brc4.jpg" alt="nahuel_huapi" />
-                    <div></div>
-                    <p>Medio día de kayak en el lago Nahuel Huapi en servicio privado</p>
-                </div></li>
-                <li><div id="bariloche5" class="fotos_bariloche">
-                    <img src="img/brc5.jpg" alt="alemana" />
-                    <div></div>
-                   <p class="mejora">Huella alemana y presencia nazi</p><div></div><p>(Bariloche)</p>
-                </div></li>
-            </div>
-        </ul>
+                </div>
+            </section>
+            <section class="lugar__fotos">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div
+                            class="col-8 text-center mx-auto fotos_bariloche mb-4 col-lg-4"
+                            id="bariloche1"
+                        >
+                            <img src="img/brc1.jpg" alt="siete_lagos" />
+                            <p
+                                class="lugar__fotos__pie rounded-bottom-4 bg-colormenu p-1"
+                            >
+                                Recorrido en barco por Puerto Blest, Cascada de
+                                Los Cantaros y Lago Frías
+                            </p>
+                        </div>
+                        <div
+                            class="col-8 text-center mx-auto fotos_bariloche mb-4 col-lg-4"
+                            id="bariloche2"
+                        >
+                            <img
+                                src="img/brc2.jpg"
+                                alt="huechulafquen"
+                                class="img-fluid"
+                            />
+                            <p
+                                class="lugar__fotos__pie rounded-bottom-4 bg-colormenu p-1"
+                            >
+                                Rafting en el río Manso hasta la frontera desde
+                                Bariloche
+                            </p>
+                        </div>
+                        <div
+                            class="col-8 text-center mx-auto fotos_bariloche mb-4 col-lg-4"
+                            id="bariloche3"
+                        >
+                            <img src="img/brc3.jpg" alt="villa_la_angostura" />
+                            <p
+                                class="lugar__fotos__pie rounded-bottom-4 bg-colormenu p-1"
+                            >
+                                Excursión a caballo en Bariloche con asado
+                                tradicional argentino
+                            </p>
+                        </div>
+                        <div
+                            class="col-8 text-center mx-auto fotos_bariloche mb-4 col-lg-4 offset-lg-4"
+                            id="bariloche4"
+                        >
+                            <img src="img/brc4.jpg" alt="rio_chimeuin" />
+                            <p
+                                class="lugar__fotos__pie rounded-bottom-4 bg-colormenu p-1"
+                            >
+                                Medio día de kayak en el lago Nahuel Huapi en
+                                servicio privado
+                            </p>
+                        </div>
+                        <div
+                            class="col-8 text-center mx-auto fotos_bariloche mb-4 col-lg-4"
+                            id="bariloche5"
+                        >
+                            <img src="img/brc5.jpg" alt="quilaquina" />
+                            <p
+                                class="lugar__fotos__pie rounded-bottom-4 bg-colormenu p-1"
+                            >
+                                Huella alemana y presencia nazi (Bariloche)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer>
             <div class="container-fluid">
-                <div class="row m-2 mb-4">
+                <div class="row m-2">
                     <div class="col-4">
-                        <div class="col fw-bold footer__subtitulo">
-                            Contactanos
-                        </div>
+                        <div class="col fw-bold">Contactanos</div>
                         <div class="col telefono">
                             <i class="fa-solid fa-phone"></i> +54 9 1122918466
                         </div>
@@ -189,9 +227,7 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="col fw-bold footer__subtitulo">
-                            Donde encontrarnos
-                        </div>
+                        <div class="col fw-bold">Donde encontrarnos</div>
                         <div class="col">Guapamecultú 1394</div>
                         <div class="col">San Martin de los Andes, Neuquén</div>
                     </div>
