@@ -1,0 +1,47 @@
+body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+/*HEADER*/
+.titulo {
+    font-family: "Indie Flower", cursive;
+    color: black;
+}
+nav {
+    font-family: "Indie Flower", cursive;
+}
+/*INDEX*/
+.texto__imagen {
+    position: absolute;
+    margin-left: 10px;
+    font-size: 32px;
+    font-weight: 500;
+    color: black;
+    text-shadow: 0.5px 0.5px 2px black;
+}
+/*REGISTRO*/
+#fecha {
+    height: 1.4rem;
+}
+/*FOOTER*/
+.telefono {
+    font-size: 0.7rem;
+}
+
+@media (min-width: 1024px) {
+    .index__texto__subtitulo {
+        font-size: 1.7rem;
+    }
+    .index__texto__texto {
+        font-size: 1.3rem;
+    }
+    footer {
+        font-size: 1.3rem;
+    }
+    .telefono {
+        font-size: 1.3rem;
+    }
+    .registro__formulario {
+        font-size: 1.5rem;
+    }
+}

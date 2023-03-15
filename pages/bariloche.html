@@ -12,7 +12,7 @@
             integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
             crossorigin="anonymous"
         ></script>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="/css/style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -36,7 +36,7 @@
                         <div class="container-fluid">
                             <a
                                 class="navbar-brand titulo fs-1 fw-bolder"
-                                href="index.html"
+                                href="/index.html"
                                 >Turisur</a
                             >
                             <button
@@ -130,102 +130,106 @@
                 </div>
             </div>
         </header>
-        <section class="registro__intro">
-            <div
-                class="registro__intro__subtitulo text-center fw-bold fs-2 mt-3"
-            >
-                SUSCRIBITE A NUESTRO NEWSLETTER
-            </div>
-            <div class="registro__intro__texto text-center fs-4 ms-3 me-3 mb-3">
-                ! De esta manera podras recibir noticias acerca de nuevas
-                actividades en los lugares mencionados, y porque no la inclusión
-                de nuevos lugares. Las noticias llegan a tu mail y tú solo
-                tendras que leerlas ¡
-            </div>
-        </section>
-        <section class="registro__formulario">
-            <form
-                class="border border-success border-4 rounded-5 p-1 mb-4 ms-1 me-1 mx-lg-auto px-lg-5 py-lg-3 limite-tamaño"
-            >
-                <div class="fs-2 fw-bolder text-center pb-lg-3">
-                    Inscripción
+        <main>
+            <section class="bariloche__intro">
+                <div class="bariloche__subtitulo text-center fw-bold fs-2 mt-3">
+                    Bariloche
                 </div>
-                <div class="bg-colormenu rounded-3 p-2 my-2 ps-lg-3 m-lg-3">
-                    <input
-                        type="text"
-                        name="nombre"
-                        class="datos rounded ps-1"
-                        placeholder="Nombre y Apellido"
-                        size="30"
-                    />
+                <div class="bariloche__texto text-center fs-4 ms-3 me-3 mb-3">
+                    Las 5 mejores activdades para realizar en este hermoso lugar
                 </div>
-                <div
-                    class="bg-colormenu rounded-3 pt-1 pb-1 ps-2 mt-2 mb-2 ps-lg-3 m-lg-3 d-flex align-items-center"
-                >
-                    <label for="fecha">Fecha de nacimiento: </label>
-                    <input
-                        type="date"
-                        name="fecha"
-                        class="datos rounded ps-1 ms-2"
-                        id="fecha"
-                    />
-                </div>
-                <div
-                    class="bg-colormenu rounded-3 p-2 mt-2 mb-2 ps-lg-3 m-lg-3"
-                >
-                    <input
-                        type="email"
-                        name="correo"
-                        class="datos rounded ps-1"
-                        placeholder="Dirección de correo electrónico:"
-                        size="30"
-                    />
-                </div>
-                <div
-                    class="bg-colormenu rounded-3 p-2 mt-2 mb-2 text-center d-lg-none"
-                >
-                    <textarea
-                        class="rounded ps-1"
-                        name="mensaje"
-                        cols="40"
-                        rows="10"
-                        placeholder=" Agregar un comentario"
-                    ></textarea>
-                </div>
-                <div class="d-none d-lg-flex justify-content-center mb-3">
-                    <div class="p-3 bg-colormenu rounded-3">
-                        <textarea
-                            class="rounded ps-1"
-                            name="mensaje"
-                            cols="70"
-                            rows="10"
-                            placeholder=" Agregar un comentario"
-                        ></textarea>
+            </section>
+            <section class="lugar__fotos">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div
+                            class="col-8 text-center mx-auto fotos_lugares mb-4 col-lg-4"
+                            id="bariloche1"
+                        >
+                            <img
+                                src="/img/brc1.jpg"
+                                class="rounded-top-4"
+                                alt="siete_lagos"
+                            />
+                            <p
+                                class="lugar__fotos__pie rounded-bottom-4 bg-colormenu p-1"
+                            >
+                                Recorrido en barco por Puerto Blest, Cascada de
+                                Los Cantaros y Lago Frías
+                            </p>
+                        </div>
+                        <div
+                            class="col-8 text-center mx-auto fotos_lugares mb-4 col-lg-4"
+                            id="bariloche2"
+                        >
+                            <img
+                                src="/img/brc2.jpg"
+                                class="rounded-top-4"
+                                alt="huechulafquen"
+                            />
+                            <p
+                                class="lugar__fotos__pie rounded-bottom-4 bg-colormenu p-1"
+                            >
+                                Rafting en el río Manso hasta la frontera desde
+                                Bariloche
+                            </p>
+                        </div>
+                        <div
+                            class="col-8 text-center mx-auto fotos_lugares mb-4 col-lg-4"
+                            id="bariloche3"
+                        >
+                            <img
+                                src="/img/brc3.jpg"
+                                class="rounded-top-4"
+                                alt="villa_la_angostura"
+                            />
+                            <p
+                                class="lugar__fotos__pie rounded-bottom-4 bg-colormenu p-1"
+                            >
+                                Excursión a caballo en Bariloche con asado
+                                tradicional argentino
+                            </p>
+                        </div>
+                        <div
+                            class="col-8 text-center mx-auto fotos_lugares mb-4 col-lg-4 offset-lg-4"
+                            id="bariloche4"
+                        >
+                            <img
+                                src="/img/brc4.jpg"
+                                class="rounded-top-4"
+                                alt="rio_chimeuin"
+                            />
+                            <p
+                                class="lugar__fotos__pie rounded-bottom-4 bg-colormenu p-1"
+                            >
+                                Medio día de kayak en el lago Nahuel Huapi en
+                                servicio privado
+                            </p>
+                        </div>
+                        <div
+                            class="col-8 text-center mx-auto fotos_lugares mb-4 col-lg-4"
+                            id="bariloche5"
+                        >
+                            <img
+                                src="/img/brc5.jpg"
+                                class="rounded-top-4"
+                                alt="quilaquina"
+                            />
+                            <p
+                                class="lugar__fotos__pie rounded-bottom-4 bg-colormenu p-1"
+                            >
+                                Huella alemana y presencia nazi (Bariloche)
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="bg-colormenu rounded-3 p-2 mt-2 mb-2 text-end pe-5">
-                    <input
-                        type="submit"
-                        name="Enviar"
-                        value="Enviar"
-                        class="bg-light rounded-3 px-2 py-1 border border-success border-3"
-                    />
-                    <input
-                        type="reset"
-                        name="borrar"
-                        value="Borrar"
-                        class="bg-light rounded-3 ms-2 px-2 py-1 border border-success border-3"
-                    />
-                </div>
-            </form>
-        </section>
+            </section>
+        </main>
         <footer>
             <div class="container-fluid">
-                <div class="row m-2 mb-4">
+                <div class="row m-2">
                     <div class="col-4">
-                        <div class="col fw-bold footer__subtitulo">
-                            Contactanos
-                        </div>
+                        <div class="col fw-bold">Contactanos</div>
                         <div class="col telefono">
                             <i class="fa-solid fa-phone"></i> +54 9 1122918466
                         </div>
@@ -239,9 +243,7 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="col fw-bold footer__subtitulo">
-                            Donde encontrarnos
-                        </div>
+                        <div class="col fw-bold">Donde encontrarnos</div>
                         <div class="col">Guapamecultú 1394</div>
                         <div class="col">San Martin de los Andes, Neuquén</div>
                     </div>

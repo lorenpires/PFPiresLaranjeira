@@ -1,0 +1,24 @@
+header a {
+    &:hover {
+        font-size: 25px;
+    }
+}
+
+.index__fotos__lugares:hover {
+    p {
+        font-size: 3rem;
+    }
+}
+.fotos_lugares {
+    transition: width height 2s;
+}
+.fotos_lugares:hover {
+    width: 80%;
+    height: 80%;
+}
+@media (min-width: 1024px) {
+    .fotos_lugares:hover {
+        width: 30%;
+        height: 30%;
+    }
+}
