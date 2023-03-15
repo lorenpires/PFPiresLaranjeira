@@ -1,14 +1,16 @@
+$title-font: "Indie Flower", cursive;
+$body-font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
 body {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-        sans-serif;
+    font-family: $body-font;
 }
 /*HEADER*/
 .titulo {
-    font-family: "Indie Flower", cursive;
+    font-family: $title-font;
     color: black;
 }
 nav {
-    font-family: "Indie Flower", cursive;
+    font-family: $title-font;
 }
 /*INDEX*/
 .texto__imagen {
