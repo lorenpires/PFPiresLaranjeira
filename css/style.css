@@ -11,6 +11,14 @@ header {
   height: 2px;
 }
 
+.titulo {
+  width: 40%;
+}
+
+.imagen__sol {
+  width: 30px;
+}
+
 footer {
   background-color: rgb(70, 147, 70);
   color: white;
